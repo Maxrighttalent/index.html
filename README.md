@@ -214,7 +214,8 @@ USDtz is not a security, investment, or financial product. This project is not a
 
 ## Appendix A: Contract Snippets (Key Functions)
 
-```solidity
+```
+solidity
 function mint(address to, uint256 amount) 
     public onlyRole(MINTER_ROLE) nonReentrant 
 {
@@ -228,6 +229,9 @@ function burn(address from, uint256 amount)
     require(from != address(0), "Burn from zero address");
     _burn(from, amount);
 }
+
+---
+
 Appendix B: Access Control Roles 
 ROLE                 ADMINISTERED BY
 MINTER_ROLE          DEFAULT_ADMIN_ROLE
