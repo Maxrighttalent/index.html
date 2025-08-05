@@ -212,9 +212,10 @@ USDtz is not a security, investment, or financial product. This project is not a
 
 ---
 
-## Appendix A: Contract Snippets (Key Functions)
+## Appendix A&B: 
 
 ```
+## Appendix A : Contract Snippets (Key Functions)
 solidity
 function mint(address to, uint256 amount) 
     public onlyRole(MINTER_ROLE) nonReentrant 
