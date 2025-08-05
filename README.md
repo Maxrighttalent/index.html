@@ -58,7 +58,7 @@ All code is open-source and hosted on GitHub:
 
 ---
 
-## 3. Token Mechanics
+## 1. Token Mechanics
 
 ### Minting & Burning
 - **Mint Authority**: `MINTER_ROLE` (Treasury Multisig)
@@ -81,7 +81,7 @@ All code is open-source and hosted on GitHub:
 
 ---
 
-## 4. Reserve Architecture
+## 2. Reserve Architecture
 
 ### Collateral Strategy
 The protocol uses a **phased collateral model**:
@@ -106,9 +106,7 @@ graph LR
     D --> E[User Receives USDT.z]
 ```
 
----
-
-## 5. User Operations
+## 3. User Operations
 
 ### Minting Process
 1. An authorized minter deposits USD-equivalent collateral (e.g., 1,000 USDC) into a unique deposit address.
@@ -124,7 +122,7 @@ graph LR
 
 ---
 
-## 6. Token Utility
+## 4. Token Utility
 
 Holding USDT.z provides more than just stability — it’s a **value-accruing asset**:
 
@@ -137,7 +135,7 @@ Holding USDT.z provides more than just stability — it’s a **value-accruing a
 
 ---
 
-## 7. Technical Implementation
+## 5. Technical Implementation
 
 ### Smart Contract Design
 - **Proxy**: UUPS (Universal Upgradeable Proxy Standard)
@@ -161,7 +159,7 @@ Example: [`USDT.z.txt`](https://github.com/Maxrighttalent/USDT.z.txt) contains t
 
 ---
 
-## 8. Team Profiles
+## 6. Team Profiles
 
 ### Nor Wolf – CEO
 - 🎓 MIT Computer Science '08
@@ -177,7 +175,7 @@ Example: [`USDT.z.txt`](https://github.com/Maxrighttalent/USDT.z.txt) contains t
 
 ---
 
-## 9. Roadmap
+## 7. Roadmap
 
 | Quarter | Milestone |
 |--------|-----------|
@@ -189,7 +187,7 @@ Example: [`USDT.z.txt`](https://github.com/Maxrighttalent/USDT.z.txt) contains t
 
 ---
 
-## 10. DAO & Community Governance
+## 8. DAO & Community Governance
 
 The **USDtz DAO** is the heart of the protocol.
 
@@ -206,7 +204,7 @@ Join the discussion:
 
 ---
 
-## 11. Disclaimer
+## 9. Disclaimer
 
 This whitepaper is for **informational purposes only**. The USDtz protocol is experimental and subject to change. Token values may fluctuate. Participation involves risk. Always conduct your own research (DYOR) before engaging with any DeFi protocol.
 
