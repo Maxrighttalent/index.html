@@ -228,14 +228,12 @@ function burn(address from, uint256 amount)
     require(from != address(0), "Burn from zero address");
     _burn(from, amount);
 }
-Appendix B: Access Control Roles
-Role	Administered By
-MINTER_ROLE	DEFAULT_ADMIN_ROLE
-BURNER_ROLE	DEFAULT_ADMIN_ROLE
-UPGRADER_ROLE	DEFAULT_ADMIN_ROLE
-DEFAULT_ADMIN_ROLE	Genesis multisig → DAO after 6 months
-<img width="289" height="191" alt="image" src="https://github.com/user-attachments/assets/4a9fe9c2-f58c-4c43-89b5-88d5583adda9" />
-
+Appendix B: Access Control Roles 
+ROLE                 ADMINISTERED BY
+MINTER_ROLE          DEFAULT_ADMIN_ROLE
+BURNER_ROLE          DEFAULT_ADMIN_ROLE
+UPGRADER_ROLE        DEFAULT_ADMIN_ROLE
+DEFAULT_ADMIN_ROLE   Genesis multisig → DAO after 6 months
 
 
 ---
