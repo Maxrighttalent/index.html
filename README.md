@@ -228,10 +228,7 @@ function burn(address from, uint256 amount)
     require(from != address(0), "Burn from zero address");
     _burn(from, amount);
 }
-```
 Appendix B: Access Control Roles
-ROLE
-ADMINISTERED BY
 MINTER_ROLE
 DEFAULT_ADMIN_ROLE
 BURNER_ROLE
