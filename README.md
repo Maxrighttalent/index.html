@@ -232,7 +232,7 @@ function burn(address from, uint256 amount)
 
 ---
 
-Appendix B: Access Control Roles 
+## Appendix B: Access Control Roles 
 ROLE                 ADMINISTERED BY
 MINTER_ROLE          DEFAULT_ADMIN_ROLE
 BURNER_ROLE          DEFAULT_ADMIN_ROLE
